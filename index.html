@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+
+    
+    </head>
+      
+      <body>
+        <div class="primary__image">
+        <div class="top-navbar pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="assets/img/logo-m.png" class="top-navbar--logo" alt="logo">
+                    </div>
+                    <div class="col-8 col-md-4 col-lg-5 d-flex flex-column align-self-center">
+                        <div class="text-top__box ">
+                            <h6 class="text--orange titles__top-navbar mb-0">Opening Hour</h6>
+                            <p>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 col-md-4 col-lg-2  d-flex flex-column align-self-center">
+                        <div class="text-top__box ">
+                            <h6 class="text--orange titles__top-navbar mb-0">Follow us</h6>
+                            <div class="top-navbar__icons">
+                                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                    
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3  d-flex flex-column align-self-center d-none__responsive">
+                        <div class="text-top__box ">
+                            <h6 class=" titles__top-navbar mb-0"><span class="text--orange">Free Call </span><a href="#">+1 234 456 78910</a></h6>
+                            <p>Call Us Now 24/7 Customer Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar sticky-top navbar-expand-lg p-0">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo-m.png"  class="logo__menu" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto w-70 mx-auto justify-content-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+
+        <!--Banner-->
+        <div class="banner d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-8 d-flex flex-column align-self-center">
+                        <h3>We create the desired<br>Home for you</h3>
+                        <p>Contact us to find out your ideas and build them together</p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4">
+                        <div class="banner__form">
+                                <h4 class="text-title mb-2">Make a Reservation</h4>
+                                <form action="/action_page.php">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-12 form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name" name="email">
+                                        </div>
+                                        <div class="col-6 col-lg-6 ">
+                                            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                        </div>
+                                        <div class="col-6 col-lg-6">
+                                            <input type="number" class="form-control" placeholder="Telephone" name="phone">
+                                        </div>
+                                        <div id="date-picker" class="form-group col-6 col-lg-12  md-form md-outline input-with-post-icon datepicker d-flex align-items-center">
+                                                <input type="input" class="form-control" id="inputDate" placeholder="mm/dd/yyyy">                                            
+                                                <i class="fa fa-calendar-o input-prefix" tabindex=0></i>
+                                            </div>
+                                        <div class="form-group col-6 col-lg-12 ">
+                                            <input type="text" class="form-control" id="service" placeholder="Choose a service" name="service">
+                                        </div>
+                                        <div class="form-group col-12 col-lg-12 ">
+                                            <textarea name="service" id="mensaje"  rows="10" placeholder="Menssage"></textarea>
+                                        </div>
+                                    </div>
+                                   
+                                    <button type="submit" class="btn btn-lg btn-block btn--gray">SEND</button>
+                                  </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+               <!--Fin Banner-->
+
+    </div>
+
+
+
+        <!--About-->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="img__about">
+                           <img src="assets/img/about.jpg" class="about__image" alt="image about">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 pr-5 pl-5 d-flex flex-column justify-content-center">
+                        <span class="sub-title text--orange">WELCOME TO CONSTRUCTION COMPANY</span>
+                        <h4 class="text-title mb-5">Why work whit us?</h4>
+                        <p>
+                            We are a company with highly qualified and 
+                            responsible personnel who will perform the 
+                            best jobs for your home.
+                        </p>
+                        <div class="about__work">
+                            <div class="card__work">
+                                <h3 class="card__word--text">Quality Construction</h3>
+                                <img src="assets/img/work-4.jpg" class="card__word--img" alt="image">
+                            </div>
+                            <div class="card__work">
+                                <h3 class="card__word--text">Professional Liability</h3>
+                                <img src="assets/img/work-5.jpg" class="card__word--img" alt="image">
+                            </div>
+                            <div class="card__work">
+                                <h3 class="card__word--text">Dedicated to Clients</h3>
+                                <img src="assets/img/work-7.jpg" class="card__word--img" alt="image">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin About-->
+
+
+
+        <!--Services-->
+        <div class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <span class="sub-title text--orange">ABOUT US</span>
+                        <h4 class="text-title ">Best Provider for Industrial Services</h4>
+                        <h5 class="sub-title__services mb-5 mt-4">We are a unique company dedicated to our clients</h5>
+                        <div class="services__tab">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                    <a class="nav-link active mr-1" data-toggle="tab" href="#home">Our Mission</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link mr-1" data-toggle="tab" href="#menu1">Our Vision</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#menu2">Our Value</a>
+                                    </li>
+                                </ul>
+                                
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="home" class="container tab-pane active"><br>
+                                    <p>Our Mission->Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div id="menu1" class="container tab-pane fade"><br>
+                                    <p>Our Vision-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima provident velit nesciunt, dolor laudantium asperiores officiis consequuntur impedit repellat, accusantium a repudiandae officia corrupti laboriosam similique necessitatibus modi debitis quos!</p>
+                                    </div>
+                                    <div id="menu2" class="container tab-pane fade"><br>
+                                    <p>Our Value-> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero architecto dolore nulla accusamus fugiat sint enim ipsa repudiandae perspiciatis ipsam? Dolore placeat dolores impedit ea autem omnis repellat sequi at?</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="about__btn text-center">
+                            <div class="btn btn--gray"><a href="#">CONTACT US!</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="sub-title text--orange">SERVICES</span>
+                        <h4 class="text-title ">know what we offer you</h4>
+                        <div class="carrusel__services">
+                                <div id="serv" class="carousel slide" data-ride="carousel">
+                                        <ul class="carousel-indicators">
+                                          <li data-target="#serv" data-slide-to="0" class="active"></li>
+                                          <li data-target="#serv" data-slide-to="1"></li>
+                                        </ul>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <div class="services__cards">
+                                                    <div class="services__card bg-gray">
+                                                        <div class="row">
+                                                            <div class="col-md-3 col-xl-2">
+                                                                <img src="assets/img/ico-1.png" class="services__card--img" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-xl-10">
+                                                                <h2 class="services__card--title">Interior<br>Design</h2>
+                                                                <p>We design the best interiors for your home full of styles and confort</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="services__card bg-orange">
+                                                        <div class="row">
+                                                            <div class="col-md-3 col-xl-2">
+                                                                <img src="assets/img/ico-2.png" class="services__card--img" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-xl-10">
+                                                                <h2 class="services__card--title">Plumbing</h2>
+                                                                <p>We design the best interiors for your home full of styles and confort</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="services__card bg-blue">
+                                                        <div class="row">
+                                                            <div class="col-md-3 col-xl-2">
+                                                                <img src="assets/img/ico-3.png" class="services__card--img" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-xl-10">
+                                                                <h2 class="services__card--title">Painting</h2>
+                                                                <p>We design the best interiors for your home full of styles and confort</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <div class="services__cards">
+                                                <div class="services__card bg-gray">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-xl-2">
+                                                            <img src="assets/img/ico-1.png" class="services__card--img" alt="">
+                                                        </div>
+                                                        <div class="col-md-9 col-xl-10">
+                                                            <h2 class="services__card--title">Interior<br>Design</h2>
+                                                            <p>We design the best interiors for your home full of styles and confort</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="services__card bg-orange">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-xl-2">
+                                                            <img src="assets/img/ico-2.png" class="services__card--img" alt="">
+                                                        </div>
+                                                        <div class="col-md-9 col-xl-10">
+                                                            <h2 class="services__card--title">Plumbing</h2>
+                                                            <p>We design the best interiors for your home full of styles and confort</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="services__card bg-blue">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-xl-2">
+                                                            <img src="assets/img/ico-3.png" class="services__card--img" alt="">
+                                                        </div>
+                                                        <div class="col-md-9 col-xl-10">
+                                                            <h2 class="services__card--title">Painting</h2>
+                                                            <p>We design the best interiors for your home full of styles and confort</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Fin Services-->
+
+
+
+        <!--Gallery-->
+        <div class="gallery ">
+            <div class="container">
+                <span class="sub-title text--orange">OUR PROJECTS</span>
+                <h4 class="text-title">know what we do</h4>
+                <div class="gallery__content">
+                        <img src="assets/img/work-5.jpg" class="gallery__img" alt="">
+                        <img src="assets/img/work-6.jpg" class="gallery__img" alt="">
+                        <img src="assets/img/work-7.jpg" class="gallery__img" alt="">
+                        <img src="assets/img/work-8.jpg" class="gallery__img" alt="">
+                        <img src="assets/img/work-1.jpg" class="gallery__img" alt="">
+                    </div>
+                <div class="gallery__btn-more">
+                    <div class="text-center mt-5"><a href="#" class="btn btn-blue">VIEW GALLERY</a></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Fin Gallery-->
+
+
+        <!--Testimonials-->
+        <div class="content__testimonials">
+        <div class="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex flex-column align-self-center">
+                        <span>VIEW TESTIMONIALS</span>
+                        <h4>FOR US IT IS VERY IMPORTANT TO KNOW THE OPINIONS OF OUR CLIENTS</h4>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                           <ul class="carousel-indicators">
+                             <li data-target="#demo" data-slide-to="0" class="active"></li>
+                             <li data-target="#demo" data-slide-to="1"></li>
+                             <li data-target="#demo" data-slide-to="2"></li>
+                           </ul>
+                           <div class="carousel-inner">
+                             <div class="carousel-item active">
+                                    <a id="play-video" class="video-play-button" data-toggle="modal" data-target="#myModal">
+                                        <span></span>
+                                    </a>
+                                   <img src="assets/img/person_4.jpg" alt="img testimonials">
+                                   <div class="d-flex justify-content-center">
+                                       <div class="carousel-caption">
+                                           <p><i>JEF FRESHMAN</i></p>
+                                       </div>  
+                                   </div>
+                             </div>
+                             <div class="carousel-item">
+                                    <a id="play-video" class="video-play-button" data-toggle="modal" data-target="#myModal">
+                                        <span></span>
+                                    </a>
+                                   <img src="assets/img/person_4.jpg" alt="img testimonials">
+                                   <div class="d-flex justify-content-center">
+                                       <div class="carousel-caption">
+                                            <p><i>JEF FRESHMAN</i></p>
+                                        </div>  
+                                   </div>
+                             </div>
+                             <div class="carousel-item ">
+                                    <a id="play-video" class="video-play-button" data-toggle="modal" data-target="#myModal">
+                                        <span></span>
+                                    </a>
+                                   <img src="assets/img/person_4.jpg" alt="img testimonials">
+                                   <div class="d-flex justify-content-center">
+                                       <div class="carousel-caption">
+                                            <p><i>JEF FRESHMAN</i></p>
+                                        </div>  
+                                   </div>
+                             </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--Fin Testimonials-->
+
+
+        <!--Redes sociales-->
+        <div class="rrss mb-5 mt-5">
+            <div class="rrss__bb">
+                <div class="container">
+                    <span class=" sub-title text--orange">OUR SOCIAL MEDIA</span>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="rrss__text">
+                            <h5>Follow us on Social<br>Media</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex align-items-center">
+                        <div class="rrss__icons">
+                                <a href="#" class="mr-3"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#" class="mr-3"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#" class="mr-3"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#" class="mr-3"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subcribete mb-5 mt-5">
+                    <div class="subcribete__box">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-6">
+                                <h5>Suscribe to our Newsletter</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <form action="/action_page.php">
+                                    <div class="d-flex">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email address" name="email">
+                                        
+                                        <div class="input-group-append">
+                                        <button type="submit" class="btn btn-orange-two">Subscribe</button>
+                                    </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+                    
+        </div>
+
+        <!--Fin Redes sociales-->
+
+        <footer class="footer">
+            <div class="footer__options pt-5 pb-3">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                            <h5 class="footer__options--title">Office Contact</h5>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+                                    Street, New York, USA
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                                        +012 345 67890 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">
+                                        <i class="fa fa-envelope mr-2" aria-hidden="true"></i>
+                                        info@example.com
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="rrss__footer">
+                                <ul>
+                                    <li><a href="#" class="rrss__footer-enlace"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="rrss__footer-enlace"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="rrss__footer-enlace"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="rrss__footer-enlace"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="rrss__footer-enlace"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>    
+                            </div>
+                      </div>
+                      <div class="col-6 col-md-4">
+                            <h5 class="footer__options--title">Services Areas</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Building Construction
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        House Renovation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Architecture Design
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Interior Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Painting
+                                    </a> 
+                                </li>
+                            </ul>
+                      </div>
+                      <div class="col-6 col-md-4">
+                            <h5 class="footer__options--title">Useful Pages</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright text-center pt-3 pb-3">
+                <h6>Copyright <span style="color: #f36425;">Company Name</span>. All Rights Reserved</h6>
+                <h6>This Website Was Designed And Developed by <a href="#"> Josesilvera.com</a></h6>
+                <a href="#"><img src="assets/img/logo.png" class="copyright__logo" alt="logo" width="100"></a> 
+
+            </div>
+
+        </footer>
+
+
+
+        <!--Modals-->
+        <!-- The Modal -->
+  <div class="modal testimonials__modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                    <video src="assets/video/review-1.mp4" controls></video>
+
+            </div>
+            
+           
+            
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+      <script src="https://use.fontawesome.com/65788a2ba0.js"></script>
+      <script src="assets/js/main.js"></script>
+
+     
+    </body>
+</html>
