@@ -162,14 +162,14 @@ ul {
     top: 0;
     left: 0;
 }
-.banner h3 {
+.banner h1 {
     color: #fff;
     font-size: 3.5em;
     font-weight: bold;
     position: relative;
 
 }
-.banner h3:before {
+.banner h1:before {
     position: absolute;
     background: #fb7300;
     width: 70px;
@@ -822,7 +822,7 @@ ul {
     .carousel-indicators  {
         bottom: 65px;
     }
-    .banner h3 {
+    .banner h1 {
         font-size: 2em;
     }
     .text-title {
